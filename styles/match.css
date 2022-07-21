@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/************************* header section */
+
+.banner-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #161616;
+    color: white;
+    border-radius: 30px;
+    padding: 60px;
+    margin: 40px 80px 80px 80px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.banner-title {
+
+    margin-top: 5px;
+}
+
+.banner-right {
+    margin-top: 80px;
+    height: 340px;
+}
+
+.banner-left button {
+    text-decoration: none;
+    background-color: #DD0000;
+    padding: 16px 25px;
+    color: white;
+    border-radius: 10px;
+    transition: 2s;
+}
+
+.banner-left button:hover {
+
+    background-color: white;
+    color: #161616;
+    border: 1px solid rgb(2, 18, 255);
+}
+
+/************************** main section  */
+
+.main-section {
+    display: flex;
+    margin: 80px;
+}
+
+.aside-buttons {
+    width: 312px;
+    height: 200px;
+    background-color: #161616;
+    border-radius: 10px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.buttons a {
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    color: #000;
+    font-size: 13px;
+    padding: 10px 5px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+
+
+#blog-button {
+    color: #ffffff;
+    background-color: #DD0000;
+
+}
+
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+}
+
+.match {
+    width: 224px;
+    height: 160px;
+    border: 1px solid rgb(209, 202, 202);
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.match-flag {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.match-flag img {
+    width: 70px;
+}
+
+.match-details {
+    text-align: center;
+}
+
+.view-all {
+    visibility: hidden;
+}
+
+
+/************************ footer section  */
+
+
+
+
+.footer-section {
+
+    color: white;
+    background-color: #161616;
+    height: 300px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.footer-section h1 {
+    font-weight: 400;
+    font-size: 35px;
+}
+
+hr {
+    border: .1px solid grey;
+    margin: 30px 80px;
+}
+
+.footer-section a {
+    display: inline;
+    text-decoration: none;
+    color: grey;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.social-media a {
+    display: inline-block;
+}
